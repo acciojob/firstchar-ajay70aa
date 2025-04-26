@@ -1,7 +1,7 @@
 function firstChar(text) {
   // your code here
 	if (typeof(text) !== 'string') return ''
-	text = text.trim()[0]
+	text = text.trim()
 	return text.length > 0 ? text[0] : ''
 }
 
